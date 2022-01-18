@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=VT323&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.component {
+  @apply flex flex-col items-center px-5;
+}
+
+.component h1 {
+  @apply font-title text-6xl text-orange-600 py-5;
+}
+.component p {
+  @apply w-1/2;
+}
